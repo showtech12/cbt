@@ -1,0 +1,35 @@
+{
+  "name": "smart-cbt-backend",
+  "version": "1.0.0",
+  "description": "Api for smart-cbt.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BuildForSDGCohort2/smart-CBT-backend.git"
+  },
+  "keywords": [
+    "cbt",
+    "theory",
+    "smart"
+  ],
+  "author": "team-2000-smartcbt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BuildForSDGCohort2/smart-CBT-backend/issues"
+  },
+  "homepage": "https://github.com/BuildForSDGCohort2/smart-CBT-backend#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "express": "^4.17.1",
+    "my-sql": "^1.2.15",
+    "node-fetch": "^2.6.1",
+    "swagger-ui-express": "^4.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
